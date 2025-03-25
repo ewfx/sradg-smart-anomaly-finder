@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+*.gguf
+
+# Ignore all model.pkl files
+model.pkl
+
+# Ignore all versioned model files like model_20293939XYZ.pkl
+model_*.pkl
+
+# (Optional) If they are inside a folder like /app or /models:
+# /app/model_*.pkl
+# /models/model_*.pkl
