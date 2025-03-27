@@ -40,14 +40,15 @@ Describe the major technical or non-technical challenges your team encountered.
    ```sh
    git clone https://github.com/your-repo.git
    ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+Setup:
+
+Make docker daemon up & running.
+Navigate to the folder where docker-compose.yaml file is available(code\src)
+Execute command: docker compose up
+Docker images should be created will all required packages for running the application.
+Atleast it will take 10 to 15 mins for intial setp up and subsequent start will be with in 2 mins
+once the deployment is completed, application can be launced from http://localhost:8501/
+Refer demo video for usage of the application.
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React / Vue / Angular
